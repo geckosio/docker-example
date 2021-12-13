@@ -6,8 +6,8 @@ This example uses the [portRange branch of github.com/geckosio/simple-chat-app-e
 
 Link:
 
-- [github repo](https://hub.docker.com/repository/docker/yandeu/geckos.io-example)
-- [docker hub](https://github.com/geckosio/docker-example)
+- [docker hub](https://hub.docker.com/r/yandeu/geckos.io-example)
+- [github repo](https://github.com/geckosio/docker-example)
 
 The server runs on port **3000/tcp**.  
 The UPD connection will be on a random UDP port between **20000/udp and 20100/udp**.
