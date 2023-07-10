@@ -24,12 +24,19 @@ USER ubuntu
 
 # install get geckos.io example
 RUN cd /home/ubuntu && \
-    sudo -u ubuntu gitget geckosio/simple-chat-app-example && \
+    gitget geckosio/simple-chat-app-example && \
     cd simple-chat-app-example && \
     npm install
 
 # change the default directory
 WORKDIR "/home/ubuntu/simple-chat-app-example"
+
+# expose some ports
+EXPOSE 3000/tcp
+EXPOSE 10000-10007/udp
+
+# node_env to production
+ENV NODE_ENV=production
 
 # build application
 RUN npm run build
