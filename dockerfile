@@ -31,10 +31,6 @@ RUN cd /home/ubuntu && \
 # change the default directory
 WORKDIR "/home/ubuntu/simple-chat-app-example"
 
-# expose some ports
-EXPOSE 3000/tcp
-EXPOSE 10000-10007/udp
-
 # node_env to production
 ENV NODE_ENV=production
 
