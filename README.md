@@ -1,5 +1,9 @@
 # Geckos.io Docker Example
 
+## ⚠️
+
+Please use the [simple-chat-app-example](https://github.com/geckosio/simple-chat-app-example) instead!
+
 ## About
 
 This example uses the [github.com/geckosio/simple-chat-app-example](https://github.com/geckosio/simple-chat-app-example).
